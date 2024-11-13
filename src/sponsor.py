@@ -1,5 +1,4 @@
 class Sponsor:
-    def __init__(self, name, offering):
-        """Ініціалізація спонсора з іменем та пропозицією (наприклад, фінансування)"""
+    def __init__(self, name, budget):
         self.name = name
-        self.offering = offering  # Пропозиції спонсора
+        self.budget = budget
